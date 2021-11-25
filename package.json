@@ -1,17 +1,15 @@
 {
-  "name": "expressCars",
-  "version": "1.0.0",
-  "description": "test999",
-  "main": "server03.js",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server03.js"
-  },
-  "author": "",
-  "license": "ISC"
+  "name": "expresscars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server03.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
-
