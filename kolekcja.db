@@ -1,0 +1,11 @@
+{"ubezpieczony":"TAK","benzyna":"TAK","uszkodzony":"TAK","naped4x4":"TAK","_id":"6cnpBZfKGXesUcg1"}
+{"ubezpieczony":"<select name=\"select1\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","benzyna":"<select name=\"select2\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","uszkodzony":"<select name=\"select3\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","naped4x4":"<select name=\"select4\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","_id":"S5IJIWgo0CeHLh1B"}
+{"ubezpieczony":"TAK","benzyna":"TAK","uszkodzony":"NIE","naped4x4":"NIE","_id":"A4m7UGO7yyHpUWy5"}
+{"$$deleted":true,"_id":"S5IJIWgo0CeHLh1B"}
+{"ubezpieczony":"TAK","benzyna":"TAK","uszkodzony":"TAK","naped4x4":"TAK","_id":"y9Yn96YeX9GKgPcZ"}
+{"ubezpieczony":"<select name=\"select1\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","benzyna":"<select name=\"select2\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","uszkodzony":"<select name=\"select3\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","naped4x4":"<select name=\"select4\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","_id":"y9Yn96YeX9GKgPcZ"}
+{"_id":"A4m7UGO7yyHpUWy5"}
+{"$$deleted":true,"_id":"y9Yn96YeX9GKgPcZ"}
+{"$$deleted":true,"_id":"A4m7UGO7yyHpUWy5"}
+{"ubezpieczony":"<select name=\"select1\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","benzyna":"<select name=\"select2\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","uszkodzony":"<select name=\"select3\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","naped4x4":"<select name=\"select4\"><option>TAK</option><option>NIE</option><option>BRAK DANYCH</option></select>","_id":"6cnpBZfKGXesUcg1"}
+{"ubezpieczony":"BRAK DANYCH","benzyna":"NIE","uszkodzony":"BRAK DANYCH","naped4x4":"TAK","_id":"6cnpBZfKGXesUcg1"}

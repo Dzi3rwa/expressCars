@@ -1,0 +1,63 @@
+<div class="right">
+    <h1>Dane pojazdu:</h1>
+    <form class="form" action="/handleForm" method="GET">
+        <table>
+            <tr>
+                <td>Ubezpieczony:</td>
+                <td><input type="checkbox" name="inputCheckbox1"></td>
+            </tr>
+            <tr>
+                <td>Benzyna:</td>
+                <td><input type="checkbox" name="inputCheckbox2"></td>
+            </tr>
+            <tr>
+                <td>Uszkodzony:</td>
+                <td><input type="checkbox" name="inputCheckbox3"></td>
+            </tr>
+            <tr>
+                <td>Napęd 4x4:</td>
+                <td><input type="checkbox" name="inputCheckbox4"></td>
+            </tr>
+        </table>
+        <input class="bt" type="submit" value="DODAJ DO BAZY">
+    </form>
+</div>
+<div>
+    <h1>Wszystkie pojazdy:</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <td></td>
+                <td>Ubezpieczony</td>
+                <td>Benzyna</td>
+                <td>Uszkodzony</td>
+                <td>Napęd 4x4</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each docsy}}
+            <tr>
+                <td>{{@index}}</td>
+                <td>{{ubezpieczony}}</td>
+                <td>{{benzyna}}</td>
+                <td>{{uszkodzony}}</td>
+                <td>{{naped4x4}}</td>
+                <td>
+                    <form action="/delete" method="GET">
+                        <input type="hidden" value="{{_id}}" name="hidden">
+                        <input id="button" class="red" type="submit" value="DELETE">
+                    </form>
+                </td>
+                <td>
+                    <form action="/edit" method="GET">
+                        <input type="hidden" value="{{_id}}" name="hidden">
+                        <input type="submit" class="blue" value="EDIT">
+                    </form>
+                </td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>

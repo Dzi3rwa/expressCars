@@ -1,0 +1,49 @@
+h1{
+    font-size: 20px;
+    color:grey;
+}
+.form{
+    width: 200px;
+    font-size: 20px;
+    color:blue;
+}
+.table{
+    padding: 20px;
+}
+thead{
+    color:blue;
+}
+td{
+    text-align: center;
+    border:1px solid grey;
+    padding: 20px;
+}
+body{
+    display: flex;
+}
+.right{
+    margin: 0 300px 0 100px;
+}
+.blue{
+    border-radius: 10px;
+    border: 1px solid blue;
+    color:blue;
+    padding: 5px;
+}
+.red{
+    border-radius: 10px;
+    border:1px solid red;
+    color:red;
+    padding: 5px;
+}
+.pink{
+    border-radius: 10px;
+    border:1px solid #ff02b3;
+    color:#ff02b3;
+    padding: 5px;
+}
+select{
+    color: blue;
+    text-align: center;
+    border: 1px solid blue;
+}
